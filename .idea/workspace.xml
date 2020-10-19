@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3099e42-8e14-4416-b72c-35bfc3257d76" name="Default Changelist" comment="" />
+    <list default="true" id="b3099e42-8e14-4416-b72c-35bfc3257d76" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/whiteship/inflearnthejavatest/Study.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/whiteship/inflearnthejavatest/Study.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/me/whiteship/inflearnthejavatest/Study2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/me/whiteship/inflearnthejavatest/Study2Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/whiteship/inflearnthejavatest/Study.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/whiteship/inflearnthejavatest/Study.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/me/whiteship/inflearnthejavatest/Study2Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/me/whiteship/inflearnthejavatest/Study2Test.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +37,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1ixa4yYyCXHZHKj1njYHNWvM79a" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -57,7 +64,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Study2Test.parameterizedTest">
+  <component name="RunManager" selected="JUnit.Study2Test.parameterizedTest3">
     <configuration name="Study2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit_test" />
       <extension name="coverage">
@@ -73,7 +80,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Study2Test.create1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Study2Test.parameterizedTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit_test" />
       <extension name="coverage">
         <pattern>
@@ -83,13 +90,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="me.whiteship.inflearnthejavatest" />
       <option name="MAIN_CLASS_NAME" value="me.whiteship.inflearnthejavatest.Study2Test" />
-      <option name="METHOD_NAME" value="create1" />
+      <option name="METHOD_NAME" value="parameterizedTest(java.lang.Integer)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Study2Test.create2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Study2Test.parameterizedTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit_test" />
       <extension name="coverage">
         <pattern>
@@ -99,13 +106,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="me.whiteship.inflearnthejavatest" />
       <option name="MAIN_CLASS_NAME" value="me.whiteship.inflearnthejavatest.Study2Test" />
-      <option name="METHOD_NAME" value="create2" />
+      <option name="METHOD_NAME" value="parameterizedTest(me.whiteship.inflearnthejavatest.Study)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Study2Test.create2_slow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Study2Test.parameterizedTest (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit_test" />
       <extension name="coverage">
         <pattern>
@@ -115,7 +122,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="me.whiteship.inflearnthejavatest" />
       <option name="MAIN_CLASS_NAME" value="me.whiteship.inflearnthejavatest.Study2Test" />
-      <option name="METHOD_NAME" value="create2_slow" />
+      <option name="METHOD_NAME" value="parameterizedTest(java.lang.Integer,java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,7 +144,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Study2Test.repeatTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Study2Test.parameterizedTest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit_test" />
       <extension name="coverage">
         <pattern>
@@ -147,7 +154,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="me.whiteship.inflearnthejavatest" />
       <option name="MAIN_CLASS_NAME" value="me.whiteship.inflearnthejavatest.Study2Test" />
-      <option name="METHOD_NAME" value="repeatTest(org.junit.jupiter.api.RepetitionInfo)" />
+      <option name="METHOD_NAME" value="parameterizedTest3(me.whiteship.inflearnthejavatest.Study)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -183,19 +190,19 @@
     </configuration>
     <list>
       <item itemvalue="Maven.junit_test [mvn,test,-P,ci]" />
-      <item itemvalue="JUnit.Study2Test.create2_slow" />
-      <item itemvalue="JUnit.Study2Test.repeatTest (1)" />
       <item itemvalue="JUnit.Study2Test.parameterizedTest" />
-      <item itemvalue="JUnit.Study2Test.create1" />
-      <item itemvalue="JUnit.Study2Test.create2" />
+      <item itemvalue="JUnit.Study2Test.parameterizedTest (1)" />
+      <item itemvalue="JUnit.Study2Test.parameterizedTest (2)" />
+      <item itemvalue="JUnit.Study2Test.parameterizedTest (3)" />
+      <item itemvalue="JUnit.Study2Test.parameterizedTest3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Study2Test.parameterizedTest3" />
+        <item itemvalue="JUnit.Study2Test.parameterizedTest (3)" />
+        <item itemvalue="JUnit.Study2Test.parameterizedTest (2)" />
+        <item itemvalue="JUnit.Study2Test.parameterizedTest (1)" />
         <item itemvalue="JUnit.Study2Test.parameterizedTest" />
-        <item itemvalue="JUnit.Study2Test.create2" />
-        <item itemvalue="JUnit.Study2Test.create1" />
-        <item itemvalue="JUnit.Study2Test.repeatTest (1)" />
-        <item itemvalue="JUnit.Study2Test.create2_slow" />
       </list>
     </recent_temporary>
   </component>
@@ -227,38 +234,55 @@
     </state>
     <state x="235" y="142" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.795@0.23.1440.795" timestamp="1603112516539" />
     <state x="235" y="145" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.799@0.23.1440.799" timestamp="1603109951814" />
-    <state x="1066" y="268" key="#com.intellij.ide.util.MemberChooser" timestamp="1602856239889">
-      <screen x="0" y="23" width="1440" height="799" />
+    <state x="921" y="234" key="#com.intellij.ide.util.MemberChooser" timestamp="1603116018416">
+      <screen x="0" y="23" width="1440" height="795" />
     </state>
+    <state x="921" y="234" key="#com.intellij.ide.util.MemberChooser/0.23.1440.795@0.23.1440.795" timestamp="1603116018416" />
     <state x="1066" y="268" key="#com.intellij.ide.util.MemberChooser/0.23.1440.799@0.23.1440.799" timestamp="1602856239889" />
     <state x="323" y="102" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1603111194055">
       <screen x="0" y="23" width="1440" height="795" />
     </state>
     <state x="323" y="102" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.23.1440.795@0.23.1440.795" timestamp="1603111194055" />
-    <state width="699" height="204" key="GridCell.Tab.0.bottom" timestamp="1603112649120">
+    <state width="699" height="204" key="GridCell.Tab.0.bottom" timestamp="1603116113766">
       <screen x="0" y="23" width="1440" height="795" />
     </state>
-    <state width="699" height="204" key="GridCell.Tab.0.bottom/0.23.1440.795@0.23.1440.795" timestamp="1603112649120" />
+    <state width="699" height="204" key="GridCell.Tab.0.bottom/0.23.1440.795@0.23.1440.795" timestamp="1603116113766" />
     <state width="1398" height="305" key="GridCell.Tab.0.bottom/0.23.1440.799/1440.23.1920.1057/-1920.-61.1920.1057@0.23.1440.799" timestamp="1603082743423" />
     <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.799@0.23.1440.799" timestamp="1603110887046" />
-    <state width="699" height="204" key="GridCell.Tab.0.center" timestamp="1603112649119">
+    <state width="699" height="204" key="GridCell.Tab.0.center" timestamp="1603116113765">
       <screen x="0" y="23" width="1440" height="795" />
     </state>
-    <state width="699" height="204" key="GridCell.Tab.0.center/0.23.1440.795@0.23.1440.795" timestamp="1603112649119" />
+    <state width="699" height="204" key="GridCell.Tab.0.center/0.23.1440.795@0.23.1440.795" timestamp="1603116113765" />
     <state width="1398" height="305" key="GridCell.Tab.0.center/0.23.1440.799/1440.23.1920.1057/-1920.-61.1920.1057@0.23.1440.799" timestamp="1603082743422" />
     <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.799@0.23.1440.799" timestamp="1603110887046" />
-    <state width="699" height="204" key="GridCell.Tab.0.left" timestamp="1603112649117">
+    <state width="699" height="204" key="GridCell.Tab.0.left" timestamp="1603116113765">
       <screen x="0" y="23" width="1440" height="795" />
     </state>
-    <state width="699" height="204" key="GridCell.Tab.0.left/0.23.1440.795@0.23.1440.795" timestamp="1603112649117" />
+    <state width="699" height="204" key="GridCell.Tab.0.left/0.23.1440.795@0.23.1440.795" timestamp="1603116113765" />
     <state width="1398" height="305" key="GridCell.Tab.0.left/0.23.1440.799/1440.23.1920.1057/-1920.-61.1920.1057@0.23.1440.799" timestamp="1603082743421" />
     <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.799@0.23.1440.799" timestamp="1603110887045" />
-    <state width="699" height="204" key="GridCell.Tab.0.right" timestamp="1603112649119">
+    <state width="699" height="204" key="GridCell.Tab.0.right" timestamp="1603116113766">
       <screen x="0" y="23" width="1440" height="795" />
     </state>
-    <state width="699" height="204" key="GridCell.Tab.0.right/0.23.1440.795@0.23.1440.795" timestamp="1603112649119" />
+    <state width="699" height="204" key="GridCell.Tab.0.right/0.23.1440.795@0.23.1440.795" timestamp="1603116113766" />
     <state width="1398" height="305" key="GridCell.Tab.0.right/0.23.1440.799/1440.23.1920.1057/-1920.-61.1920.1057@0.23.1440.799" timestamp="1603082743422" />
     <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.799@0.23.1440.799" timestamp="1603110887046" />
+    <state width="699" height="252" key="GridCell.Tab.1.bottom" timestamp="1603115781957">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state width="699" height="252" key="GridCell.Tab.1.bottom/0.23.1440.795@0.23.1440.795" timestamp="1603115781957" />
+    <state width="699" height="252" key="GridCell.Tab.1.center" timestamp="1603115781956">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state width="699" height="252" key="GridCell.Tab.1.center/0.23.1440.795@0.23.1440.795" timestamp="1603115781956" />
+    <state width="699" height="252" key="GridCell.Tab.1.left" timestamp="1603115781956">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state width="699" height="252" key="GridCell.Tab.1.left/0.23.1440.795@0.23.1440.795" timestamp="1603115781956" />
+    <state width="699" height="252" key="GridCell.Tab.1.right" timestamp="1603115781957">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state width="699" height="252" key="GridCell.Tab.1.right/0.23.1440.795@0.23.1440.795" timestamp="1603115781957" />
     <state x="258" y="84" key="Maven.ArtifactSearchDialog" timestamp="1602851803334">
       <screen x="0" y="23" width="1440" height="799" />
     </state>
