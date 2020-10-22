@@ -19,7 +19,11 @@ import static org.junit.jupiter.api.Assumptions.assumingThat;
 
 //ReplaceUnderscores 공백을 언더바로 치환해줌
 //@DisplayNameGeneration(DisplayNameGenerator.ReplaceUnderscores.class)
-class Study2Test {
+class StudyTest {
+
+	int value = 0;
+
+
 	//특정 test 함수안에 커서를 넣고 테스트시작하면 그 함수만 실행됨
 	@Test
 	@DisplayName("스터디 만들기")

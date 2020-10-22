@@ -1,17 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:junit5" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b3099e42-8e14-4416-b72c-35bfc3257d76" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/me/whiteship/inflearnthejavatest/CheckSlowTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/me/whiteship/inflearnthejavatest/FindSlowTestExtension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/me/whiteship/inflearnthejavatest/Junit4Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/me/whiteship/inflearnthejavatest/StudyTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/me/whiteship/inflearnthejavatest/TestOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/junit-platform.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/whiteship/inflearnthejavatest/Study.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/whiteship/inflearnthejavatest/Study.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/me/whiteship/inflearnthejavatest/Study2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/me/whiteship/inflearnthejavatest/Study2Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/me/whiteship/inflearnthejavatest/Study2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/me/whiteship/inflearnthejavatest/StudyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/junit_test.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/whiteship/inflearnthejavatest/InflearnTheJavaTestApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/whiteship/inflearnthejavatest/InflearnTheJavaTestApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/me/whiteship/inflearnthejavatest/Study.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/whiteship/inflearnthejavatest/Study.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/me/whiteship/inflearnthejavatest/Study2Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/me/whiteship/inflearnthejavatest/Study2Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/whiteship/inflearnthejavatest/StudyStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/whiteship/inflearnthejavatest/StudyStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/me/whiteship/inflearnthejavatest/Study2Test$StudyAggregator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/me/whiteship/inflearnthejavatest/Study2Test$StudyConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/me/whiteship/inflearnthejavatest/Study2Test.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -25,13 +65,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../Downloads/maven_settings.xml" />
+      </MavenGeneralSettings>
     </option>
     <option name="enabledProfiles">
       <list>
+        <option value="default" />
         <option value="ci" />
       </list>
     </option>
@@ -40,18 +82,28 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3844178" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.splitter.proportion" value="0.25301206" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -64,24 +116,20 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Study2Test.parameterizedTest3">
-    <configuration name="Study2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="me.whiteship.inflearnthejavatest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="me.whiteship.inflearnthejavatest" />
-      <option name="MAIN_CLASS_NAME" value="me.whiteship.inflearnthejavatest.Study2Test" />
+  <component name="RunManager" selected="JUnit.me.whiteship.inflearnthejavatest in inflearn-the-java-test">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Study2Test.parameterizedTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit_test" />
+    <configuration name="CheckSlowTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="inflearn-the-java-test" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="me.whiteship.inflearnthejavatest.*" />
@@ -89,14 +137,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="me.whiteship.inflearnthejavatest" />
-      <option name="MAIN_CLASS_NAME" value="me.whiteship.inflearnthejavatest.Study2Test" />
-      <option name="METHOD_NAME" value="parameterizedTest(java.lang.Integer)" />
+      <option name="MAIN_CLASS_NAME" value="me.whiteship.inflearnthejavatest.CheckSlowTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckSlowTest.create_new_study" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="inflearn-the-java-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.whiteship.inflearnthejavatest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="me.whiteship.inflearnthejavatest" />
+      <option name="MAIN_CLASS_NAME" value="me.whiteship.inflearnthejavatest.CheckSlowTest" />
+      <option name="METHOD_NAME" value="create_new_study" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Study2Test.parameterizedTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudyTest.parameterizedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit_test" />
       <extension name="coverage">
         <pattern>
@@ -105,30 +168,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="me.whiteship.inflearnthejavatest" />
-      <option name="MAIN_CLASS_NAME" value="me.whiteship.inflearnthejavatest.Study2Test" />
-      <option name="METHOD_NAME" value="parameterizedTest(me.whiteship.inflearnthejavatest.Study)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Study2Test.parameterizedTest (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="me.whiteship.inflearnthejavatest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="me.whiteship.inflearnthejavatest" />
-      <option name="MAIN_CLASS_NAME" value="me.whiteship.inflearnthejavatest.Study2Test" />
+      <option name="MAIN_CLASS_NAME" value="me.whiteship.inflearnthejavatest.StudyTest" />
       <option name="METHOD_NAME" value="parameterizedTest(java.lang.Integer,java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Study2Test.parameterizedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudyTest.parameterizedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit_test" />
       <extension name="coverage">
         <pattern>
@@ -137,15 +184,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="me.whiteship.inflearnthejavatest" />
-      <option name="MAIN_CLASS_NAME" value="me.whiteship.inflearnthejavatest.Study2Test" />
+      <option name="MAIN_CLASS_NAME" value="me.whiteship.inflearnthejavatest.StudyTest" />
       <option name="METHOD_NAME" value="parameterizedTest(java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Study2Test.parameterizedTest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit_test" />
+    <configuration name="TestOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="inflearn-the-java-test" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="me.whiteship.inflearnthejavatest.*" />
@@ -153,9 +200,38 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="me.whiteship.inflearnthejavatest" />
-      <option name="MAIN_CLASS_NAME" value="me.whiteship.inflearnthejavatest.Study2Test" />
-      <option name="METHOD_NAME" value="parameterizedTest3(me.whiteship.inflearnthejavatest.Study)" />
+      <option name="MAIN_CLASS_NAME" value="me.whiteship.inflearnthejavatest.TestOrder" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestOrder.create_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="inflearn-the-java-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.whiteship.inflearnthejavatest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="me.whiteship.inflearnthejavatest" />
+      <option name="MAIN_CLASS_NAME" value="me.whiteship.inflearnthejavatest.TestOrder" />
+      <option name="METHOD_NAME" value="create_test" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="me.whiteship.inflearnthejavatest in inflearn-the-java-test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="inflearn-the-java-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.whiteship.inflearnthejavatest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="me.whiteship.inflearnthejavatest" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -188,24 +264,33 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="InflearnTheJavaTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="inflearn-the-java-test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="me.whiteship.inflearnthejavatest.InflearnTheJavaTestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Maven.junit_test [mvn,test,-P,ci]" />
-      <item itemvalue="JUnit.Study2Test.parameterizedTest" />
-      <item itemvalue="JUnit.Study2Test.parameterizedTest (1)" />
-      <item itemvalue="JUnit.Study2Test.parameterizedTest (2)" />
-      <item itemvalue="JUnit.Study2Test.parameterizedTest (3)" />
-      <item itemvalue="JUnit.Study2Test.parameterizedTest3" />
+      <item itemvalue="Spring Boot.InflearnTheJavaTestApplication" />
+      <item itemvalue="JUnit.TestOrder" />
+      <item itemvalue="JUnit.TestOrder.create_test" />
+      <item itemvalue="JUnit.CheckSlowTest.create_new_study" />
+      <item itemvalue="JUnit.CheckSlowTest" />
+      <item itemvalue="JUnit.me.whiteship.inflearnthejavatest in inflearn-the-java-test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Study2Test.parameterizedTest3" />
-        <item itemvalue="JUnit.Study2Test.parameterizedTest (3)" />
-        <item itemvalue="JUnit.Study2Test.parameterizedTest (2)" />
-        <item itemvalue="JUnit.Study2Test.parameterizedTest (1)" />
-        <item itemvalue="JUnit.Study2Test.parameterizedTest" />
+        <item itemvalue="JUnit.me.whiteship.inflearnthejavatest in inflearn-the-java-test" />
+        <item itemvalue="JUnit.CheckSlowTest" />
+        <item itemvalue="JUnit.CheckSlowTest.create_new_study" />
+        <item itemvalue="JUnit.TestOrder" />
+        <item itemvalue="JUnit.TestOrder.create_test" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -216,8 +301,29 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602850474028</updated>
+      <workItem from="1603197008730" duration="999000" />
+      <workItem from="1603198800615" duration="467000" />
+      <workItem from="1603199310780" duration="23000" />
+      <workItem from="1603199358769" duration="392000" />
+      <workItem from="1603199772757" duration="1901000" />
+      <workItem from="1603373737613" duration="4066000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="88" key="#Plugins" timestamp="1602853956506">
@@ -234,77 +340,113 @@
     </state>
     <state x="235" y="142" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.795@0.23.1440.795" timestamp="1603112516539" />
     <state x="235" y="145" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.799@0.23.1440.799" timestamp="1603109951814" />
-    <state x="921" y="234" key="#com.intellij.ide.util.MemberChooser" timestamp="1603116018416">
-      <screen x="0" y="23" width="1440" height="795" />
+    <state x="921" y="233" key="#com.intellij.ide.util.MemberChooser" timestamp="1603374461616">
+      <screen x="0" y="23" width="1440" height="792" />
     </state>
+    <state x="921" y="233" key="#com.intellij.ide.util.MemberChooser/0.23.1440.792@0.23.1440.792" timestamp="1603374461616" />
     <state x="921" y="234" key="#com.intellij.ide.util.MemberChooser/0.23.1440.795@0.23.1440.795" timestamp="1603116018416" />
     <state x="1066" y="268" key="#com.intellij.ide.util.MemberChooser/0.23.1440.799@0.23.1440.799" timestamp="1602856239889" />
     <state x="323" y="102" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1603111194055">
       <screen x="0" y="23" width="1440" height="795" />
     </state>
     <state x="323" y="102" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.23.1440.795@0.23.1440.795" timestamp="1603111194055" />
-    <state width="699" height="204" key="GridCell.Tab.0.bottom" timestamp="1603116113766">
-      <screen x="0" y="23" width="1440" height="795" />
+    <state width="1398" height="310" key="GridCell.Tab.0.bottom" timestamp="1603377402482">
+      <screen x="0" y="23" width="1440" height="792" />
     </state>
-    <state width="699" height="204" key="GridCell.Tab.0.bottom/0.23.1440.795@0.23.1440.795" timestamp="1603116113766" />
+    <state width="1398" height="310" key="GridCell.Tab.0.bottom/0.23.1440.792@0.23.1440.792" timestamp="1603377402482" />
+    <state width="1398" height="202" key="GridCell.Tab.0.bottom/0.23.1440.795@0.23.1440.795" timestamp="1603201747759" />
     <state width="1398" height="305" key="GridCell.Tab.0.bottom/0.23.1440.799/1440.23.1920.1057/-1920.-61.1920.1057@0.23.1440.799" timestamp="1603082743423" />
     <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.799@0.23.1440.799" timestamp="1603110887046" />
-    <state width="699" height="204" key="GridCell.Tab.0.center" timestamp="1603116113765">
-      <screen x="0" y="23" width="1440" height="795" />
+    <state width="1398" height="310" key="GridCell.Tab.0.center" timestamp="1603377402481">
+      <screen x="0" y="23" width="1440" height="792" />
     </state>
-    <state width="699" height="204" key="GridCell.Tab.0.center/0.23.1440.795@0.23.1440.795" timestamp="1603116113765" />
+    <state width="1398" height="310" key="GridCell.Tab.0.center/0.23.1440.792@0.23.1440.792" timestamp="1603377402481" />
+    <state width="1398" height="202" key="GridCell.Tab.0.center/0.23.1440.795@0.23.1440.795" timestamp="1603201747756" />
     <state width="1398" height="305" key="GridCell.Tab.0.center/0.23.1440.799/1440.23.1920.1057/-1920.-61.1920.1057@0.23.1440.799" timestamp="1603082743422" />
     <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.799@0.23.1440.799" timestamp="1603110887046" />
-    <state width="699" height="204" key="GridCell.Tab.0.left" timestamp="1603116113765">
-      <screen x="0" y="23" width="1440" height="795" />
+    <state width="1398" height="310" key="GridCell.Tab.0.left" timestamp="1603377402480">
+      <screen x="0" y="23" width="1440" height="792" />
     </state>
-    <state width="699" height="204" key="GridCell.Tab.0.left/0.23.1440.795@0.23.1440.795" timestamp="1603116113765" />
+    <state width="1398" height="310" key="GridCell.Tab.0.left/0.23.1440.792@0.23.1440.792" timestamp="1603377402480" />
+    <state width="1398" height="202" key="GridCell.Tab.0.left/0.23.1440.795@0.23.1440.795" timestamp="1603201747755" />
     <state width="1398" height="305" key="GridCell.Tab.0.left/0.23.1440.799/1440.23.1920.1057/-1920.-61.1920.1057@0.23.1440.799" timestamp="1603082743421" />
     <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.799@0.23.1440.799" timestamp="1603110887045" />
-    <state width="699" height="204" key="GridCell.Tab.0.right" timestamp="1603116113766">
-      <screen x="0" y="23" width="1440" height="795" />
+    <state width="1398" height="310" key="GridCell.Tab.0.right" timestamp="1603377402481">
+      <screen x="0" y="23" width="1440" height="792" />
     </state>
-    <state width="699" height="204" key="GridCell.Tab.0.right/0.23.1440.795@0.23.1440.795" timestamp="1603116113766" />
+    <state width="1398" height="310" key="GridCell.Tab.0.right/0.23.1440.792@0.23.1440.792" timestamp="1603377402481" />
+    <state width="1398" height="202" key="GridCell.Tab.0.right/0.23.1440.795@0.23.1440.795" timestamp="1603201747758" />
     <state width="1398" height="305" key="GridCell.Tab.0.right/0.23.1440.799/1440.23.1920.1057/-1920.-61.1920.1057@0.23.1440.799" timestamp="1603082743422" />
     <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.799@0.23.1440.799" timestamp="1603110887046" />
-    <state width="699" height="252" key="GridCell.Tab.1.bottom" timestamp="1603115781957">
-      <screen x="0" y="23" width="1440" height="795" />
+    <state width="1398" height="252" key="GridCell.Tab.1.bottom" timestamp="1603375362208">
+      <screen x="0" y="23" width="1440" height="792" />
     </state>
-    <state width="699" height="252" key="GridCell.Tab.1.bottom/0.23.1440.795@0.23.1440.795" timestamp="1603115781957" />
-    <state width="699" height="252" key="GridCell.Tab.1.center" timestamp="1603115781956">
-      <screen x="0" y="23" width="1440" height="795" />
+    <state width="1398" height="252" key="GridCell.Tab.1.bottom/0.23.1440.792@0.23.1440.792" timestamp="1603375362208" />
+    <state width="699" height="252" key="GridCell.Tab.1.bottom/0.23.1440.795@0.23.1440.795" timestamp="1603116601432" />
+    <state width="1398" height="252" key="GridCell.Tab.1.center" timestamp="1603375362208">
+      <screen x="0" y="23" width="1440" height="792" />
     </state>
-    <state width="699" height="252" key="GridCell.Tab.1.center/0.23.1440.795@0.23.1440.795" timestamp="1603115781956" />
-    <state width="699" height="252" key="GridCell.Tab.1.left" timestamp="1603115781956">
-      <screen x="0" y="23" width="1440" height="795" />
+    <state width="1398" height="252" key="GridCell.Tab.1.center/0.23.1440.792@0.23.1440.792" timestamp="1603375362208" />
+    <state width="699" height="252" key="GridCell.Tab.1.center/0.23.1440.795@0.23.1440.795" timestamp="1603116601431" />
+    <state width="1398" height="252" key="GridCell.Tab.1.left" timestamp="1603375362207">
+      <screen x="0" y="23" width="1440" height="792" />
     </state>
-    <state width="699" height="252" key="GridCell.Tab.1.left/0.23.1440.795@0.23.1440.795" timestamp="1603115781956" />
-    <state width="699" height="252" key="GridCell.Tab.1.right" timestamp="1603115781957">
-      <screen x="0" y="23" width="1440" height="795" />
+    <state width="1398" height="252" key="GridCell.Tab.1.left/0.23.1440.792@0.23.1440.792" timestamp="1603375362207" />
+    <state width="699" height="252" key="GridCell.Tab.1.left/0.23.1440.795@0.23.1440.795" timestamp="1603116601431" />
+    <state width="1398" height="252" key="GridCell.Tab.1.right" timestamp="1603375362208">
+      <screen x="0" y="23" width="1440" height="792" />
     </state>
-    <state width="699" height="252" key="GridCell.Tab.1.right/0.23.1440.795@0.23.1440.795" timestamp="1603115781957" />
+    <state width="1398" height="252" key="GridCell.Tab.1.right/0.23.1440.792@0.23.1440.792" timestamp="1603375362208" />
+    <state width="699" height="252" key="GridCell.Tab.1.right/0.23.1440.795@0.23.1440.795" timestamp="1603116601432" />
     <state x="258" y="84" key="Maven.ArtifactSearchDialog" timestamp="1602851803334">
       <screen x="0" y="23" width="1440" height="799" />
     </state>
     <state x="258" y="84" key="Maven.ArtifactSearchDialog/0.23.1440.799@0.23.1440.799" timestamp="1602851803334" />
-    <state x="221" y="23" key="SettingsEditor" timestamp="1603112596264">
-      <screen x="0" y="23" width="1440" height="795" />
+    <state x="221" y="23" key="SettingsEditor" timestamp="1603375401054">
+      <screen x="0" y="23" width="1440" height="792" />
     </state>
-    <state x="221" y="23" key="SettingsEditor/0.23.1440.795@0.23.1440.795" timestamp="1603112596264" />
+    <state x="221" y="23" key="SettingsEditor/0.23.1440.792@0.23.1440.792" timestamp="1603375401054" />
+    <state x="221" y="23" key="SettingsEditor/0.23.1440.795@0.23.1440.795" timestamp="1603201695202" />
     <state x="221" y="23" key="SettingsEditor/0.23.1440.799@0.23.1440.799" timestamp="1602853979209" />
+    <state x="1036" y="386" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603374490552">
+      <screen x="0" y="23" width="1440" height="792" />
+    </state>
+    <state x="1036" y="386" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.792@0.23.1440.792" timestamp="1603374490552" />
     <state x="926" y="250" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1602851991396">
       <screen x="0" y="23" width="1440" height="799" />
     </state>
     <state x="926" y="250" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.799@0.23.1440.799" timestamp="1602851991396" />
+    <state x="660" y="179" width="568" height="490" key="find.popup" timestamp="1603378383552">
+      <screen x="0" y="23" width="1440" height="792" />
+    </state>
+    <state x="660" y="179" width="568" height="490" key="find.popup/0.23.1440.792@0.23.1440.792" timestamp="1603378383552" />
+    <state x="660" y="180" width="568" height="490" key="find.popup/0.23.1440.795@0.23.1440.795" timestamp="1603200455461" />
+    <state x="880" y="215" width="639" height="486" key="find.popup/0.23.1920.975@0.23.1920.975" timestamp="1603186017574" />
     <state x="385" y="190" width="670" height="672" key="run.anything.popup" timestamp="1603111384056">
       <screen x="0" y="23" width="1440" height="795" />
     </state>
     <state x="385" y="190" width="670" height="672" key="run.anything.popup/0.23.1440.795@0.23.1440.795" timestamp="1603111384056" />
     <state x="385" y="191" width="670" height="675" key="run.anything.popup/0.23.1440.799@0.23.1440.799" timestamp="1603109765366" />
-    <state x="516" y="67" width="783" height="673" key="search.everywhere.popup" timestamp="1603112590081">
+    <state x="516" y="67" width="783" height="673" key="search.everywhere.popup" timestamp="1603201674550">
       <screen x="0" y="23" width="1440" height="795" />
     </state>
-    <state x="516" y="67" width="783" height="673" key="search.everywhere.popup/0.23.1440.795@0.23.1440.795" timestamp="1603112590081" />
+    <state x="516" y="67" width="783" height="673" key="search.everywhere.popup/0.23.1440.795@0.23.1440.795" timestamp="1603201674550" />
     <state x="516" y="67" width="783" height="676" key="search.everywhere.popup/0.23.1440.799@0.23.1440.799" timestamp="1602853962551" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/me/whiteship/inflearnthejavatest/StudyTest2.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/me/whiteship/inflearnthejavatest/FindSlowTestExtension.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
